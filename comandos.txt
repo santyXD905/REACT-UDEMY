@@ -1,3 +1,4 @@
 npx create-react-app my-app // permite crear una app de react
 parsing error // error de sintaxis o falta de escritura
 backtick ``//permite escribir javascript con ${}
+console.table //visualizar objetos como tabla
