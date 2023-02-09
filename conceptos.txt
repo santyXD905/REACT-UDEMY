@@ -1,0 +1,8 @@
+REACT es una libreria. se puede inyectar directamente en un html y trabajat con él
+es una libreria declarativa, hace sensillo seguir patrones de diseño y crear interfaces de usuario interactivas
+la informacion fluye en una sola via
+podemos usar "componentes" que son partes de codigo encapsulada que pueden tener "estado" o no
+para app de escritorio "Electron" para app movil "rect native" = mismo codigo
+
+
+DOM es una interfaz de programación para los documentos HTML y XML
