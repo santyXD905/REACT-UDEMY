@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <!-- librerias para usar react en un html -->
+    <script crossorigin src="https://unpkg.com/react@16/umd/react.production.min.js"></script>
+
+    <!--react dom se encarga del navegador web-->
+    <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>
+
+    <!--permite "portear" codigo de programacion a codigo soportado por ordenadores-->
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+
+    <title>React-app</title>
+</head>
+<body>
+    
+    <div id="root"></div>
+
+    <!--portea codigo de programacion-->
+    <script type="text/babel">
+        
+    //encapsulo codigo html
+    const h1Tag = <h1> Hola Mundo </h1>;
+    const nombre = "goku";
+
+    const h2Tag = <h1> Hola soy {nombre} </h1>;
+
+    //indico en la etiqueta
+    const divRoot = document.querySelector('#root')
+    
+
+    //renderizo con codigo y etiqueta
+    ReactDOM.render(h1Tag,divRoot);
+    
+    //renderizo con codigo y etiqueta
+    ReactDOM.render(h2Tag,divRoot);
+
+    </script>
+
+
+</body>
+</html>
