@@ -12,3 +12,7 @@ usar las caracteristicas más nuevas de java script incluso para navegadores no 
 
 El scope de una variable hace referencia al lugar donde va a vivir esta, o podrá ser accesible, en JavaScript 
 tenemos varias opciones: global, local y bloque
+
+mozilla mdn: https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/map
+mejor documentacion de JavaScript
+
